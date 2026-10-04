@@ -8,7 +8,7 @@ steps {
 }
 stage ("two") {
 steps {
-sleep 10
+sh sleep 10
 }
 }
 }
