@@ -3,12 +3,12 @@ agent any
 stages {
 stage ("one") {
 steps {
-  sh 'sleep 10'
+  sh 'sleep 5'
 }
 }
 stage ("two") {
 steps {
-sh 'sleep 10'
+sh 'sleep 5'
 }
 }
 }
