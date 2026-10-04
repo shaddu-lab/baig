@@ -8,7 +8,7 @@ steps {
 }
 stage ("two") {
 steps {
-echo "this is master branch"
+echo "this is m2024Q2 branch"
 }
 }
 }
