@@ -8,7 +8,7 @@ steps {
 }
 stage ("two") {
 steps {
-sh 'sleep 5'
+echo "this is master branch"
 }
 }
 }
